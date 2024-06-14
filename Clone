@@ -1,0 +1,12 @@
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+echo "# Sunshine Vibes" >> README.md
+echo "node_modules" >> .gitignore
+npm init -y
+mkdir backend frontend
+cd frontend
+npx react-native init SunshineVibes
+cd ..
+git add .
+git commit -m "Initial commit with basic structure"
+git push origin main
